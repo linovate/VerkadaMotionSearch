@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2968353422584A72002CB639 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968353322584A72002CB639 /* CustomCell.swift */; };
+		2968353622586A73002CB639 /* Ui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968353522586A73002CB639 /* Ui.swift */; };
 		2982F0E52256EA230044372E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982F0E42256EA230044372E /* AppDelegate.swift */; };
-		2982F0E72256EA230044372E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982F0E62256EA230044372E /* ViewController.swift */; };
-		2982F0EA2256EA230044372E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2982F0E82256EA230044372E /* Main.storyboard */; };
 		2982F0EC2256EA240044372E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2982F0EB2256EA240044372E /* Assets.xcassets */; };
-		2982F0EF2256EA240044372E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2982F0ED2256EA240044372E /* LaunchScreen.storyboard */; };
+		2982F0F72256EA550044372E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982F0F62256EA550044372E /* Constants.swift */; };
+		2982F0F92256EA6A0044372E /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982F0F82256EA6A0044372E /* MainTVC.swift */; };
+		2982F0FB2256EA750044372E /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982F0FA2256EA750044372E /* DrawingView.swift */; };
+		2982F0FD2256EA820044372E /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982F0FC2256EA820044372E /* CustomImageView.swift */; };
+		EEB0940BC0DF250DC8989CA9 /* Pods_VerkadaMotionSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7938ECC0D352F539B99A5D /* Pods_VerkadaMotionSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05EDE6072077C6BC42B7A881 /* Pods-VerkadaMotionSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerkadaMotionSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VerkadaMotionSearch/Pods-VerkadaMotionSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		2968353322584A72002CB639 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2968353522586A73002CB639 /* Ui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ui.swift; sourceTree = "<group>"; };
 		2982F0E12256EA230044372E /* VerkadaMotionSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerkadaMotionSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2982F0E42256EA230044372E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2982F0E62256EA230044372E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2982F0E92256EA230044372E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2982F0EB2256EA240044372E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2982F0EE2256EA240044372E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2982F0F02256EA240044372E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982F0F62256EA550044372E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2982F0F82256EA6A0044372E /* MainTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		2982F0FA2256EA750044372E /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		2982F0FC2256EA820044372E /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		9D7938ECC0D352F539B99A5D /* Pods_VerkadaMotionSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerkadaMotionSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C49B85B3BDE4963BCC59B1 /* Pods-VerkadaMotionSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerkadaMotionSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-VerkadaMotionSearch/Pods-VerkadaMotionSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB0940BC0DF250DC8989CA9 /* Pods_VerkadaMotionSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				2982F0E32256EA230044372E /* VerkadaMotionSearch */,
 				2982F0E22256EA230044372E /* Products */,
+				6A2050937B259B107CC1EC46 /* Pods */,
+				6CBE35B03152D0215426FFE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,33 @@
 			isa = PBXGroup;
 			children = (
 				2982F0E42256EA230044372E /* AppDelegate.swift */,
-				2982F0E62256EA230044372E /* ViewController.swift */,
-				2982F0E82256EA230044372E /* Main.storyboard */,
+				2982F0F62256EA550044372E /* Constants.swift */,
+				2982F0F82256EA6A0044372E /* MainTVC.swift */,
+				2982F0FA2256EA750044372E /* DrawingView.swift */,
+				2982F0FC2256EA820044372E /* CustomImageView.swift */,
+				2968353322584A72002CB639 /* CustomCell.swift */,
+				2968353522586A73002CB639 /* Ui.swift */,
 				2982F0EB2256EA240044372E /* Assets.xcassets */,
-				2982F0ED2256EA240044372E /* LaunchScreen.storyboard */,
 				2982F0F02256EA240044372E /* Info.plist */,
 			);
 			path = VerkadaMotionSearch;
+			sourceTree = "<group>";
+		};
+		6A2050937B259B107CC1EC46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05EDE6072077C6BC42B7A881 /* Pods-VerkadaMotionSearch.debug.xcconfig */,
+				B8C49B85B3BDE4963BCC59B1 /* Pods-VerkadaMotionSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CBE35B03152D0215426FFE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D7938ECC0D352F539B99A5D /* Pods_VerkadaMotionSearch.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2982F0F32256EA240044372E /* Build configuration list for PBXNativeTarget "VerkadaMotionSearch" */;
 			buildPhases = (
+				21CCD0526DB2F53C22C4534A /* [CP] Check Pods Manifest.lock */,
 				2982F0DD2256EA230044372E /* Sources */,
 				2982F0DE2256EA230044372E /* Frameworks */,
 				2982F0DF2256EA230044372E /* Resources */,
+				6BD4DABF6068E069B8EADD6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,44 +157,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2982F0EF2256EA240044372E /* LaunchScreen.storyboard in Resources */,
 				2982F0EC2256EA240044372E /* Assets.xcassets in Resources */,
-				2982F0EA2256EA230044372E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21CCD0526DB2F53C22C4534A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VerkadaMotionSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD4DABF6068E069B8EADD6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VerkadaMotionSearch/Pods-VerkadaMotionSearch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VerkadaMotionSearch/Pods-VerkadaMotionSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2982F0DD2256EA230044372E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2982F0E72256EA230044372E /* ViewController.swift in Sources */,
 				2982F0E52256EA230044372E /* AppDelegate.swift in Sources */,
+				2982F0F92256EA6A0044372E /* MainTVC.swift in Sources */,
+				2968353622586A73002CB639 /* Ui.swift in Sources */,
+				2982F0F72256EA550044372E /* Constants.swift in Sources */,
+				2982F0FB2256EA750044372E /* DrawingView.swift in Sources */,
+				2968353422584A72002CB639 /* CustomCell.swift in Sources */,
+				2982F0FD2256EA820044372E /* CustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2982F0E82256EA230044372E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2982F0E92256EA230044372E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2982F0ED2256EA240044372E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2982F0EE2256EA240044372E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2982F0F12256EA240044372E /* Debug */ = {
@@ -280,11 +346,13 @@
 		};
 		2982F0F42256EA240044372E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EDE6072077C6BC42B7A881 /* Pods-VerkadaMotionSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MZJPKP7H8D;
 				INFOPLIST_FILE = VerkadaMotionSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +366,13 @@
 		};
 		2982F0F52256EA240044372E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C49B85B3BDE4963BCC59B1 /* Pods-VerkadaMotionSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MZJPKP7H8D;
 				INFOPLIST_FILE = VerkadaMotionSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

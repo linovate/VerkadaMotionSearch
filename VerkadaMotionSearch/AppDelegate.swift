@@ -1,10 +1,7 @@
-//
 //  AppDelegate.swift
 //  VerkadaMotionSearch
-//
 //  Created by lordofming on 4/4/19.
-//  Copyright © 2019 hl. All rights reserved.
-//
+//  Copyright © 2019 lordofming. All rights reserved.
 
 import UIKit
 
@@ -13,9 +10,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let nav = UINavigationController()
+        let vc = MainTVC()
+        
+        // Push the vc onto the NavigationController
+        nav.pushViewController(vc, animated: false)
+        
+        // Set the window’s root view controller
+        self.window?.rootViewController = nav
+        
+        // Present the window
+        self.window?.makeKeyAndVisible()
         return true
     }
 
